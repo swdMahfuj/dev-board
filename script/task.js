@@ -31,6 +31,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 activityLog.appendChild(newLog);
             }
+
+            if (parseInt(taskCount.innerText) === 0) {
+                alert("Congrats!!! You have completed all the current tasks.");
+            }
         });
     }
 
